@@ -1,6 +1,5 @@
 import React from 'react';
 import { render } from 'react-dom';
-// import { DatePicker, message, Alert } from 'antd';
 import 'antd/dist/antd.css';
 import './index.css';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';

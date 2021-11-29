@@ -92,9 +92,14 @@ const Registration = () => {
                   }}
                 >
                   Have children
-                  {haveChildren ? <Input
-                    onChange={(e) => setCountChildren(e.target.value)} value={childrenCount} name="children"
-                    placeholder="How much" style={{ width: 100, marginLeft: 10 }} /> : null}
+                  {haveChildren ?
+                    <Form.Item name="children">
+                      <Input
+                        onChange={(e) => setCountChildren(e.target.value)}
+                        value={childrenCount}
+                        placeholder="How much" style={{ width: 100, marginLeft: 10 }} />
+                    </Form.Item> :
+                    null}
                 </Checkbox>
               </Col>
             </Row>

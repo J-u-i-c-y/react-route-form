@@ -5,4 +5,12 @@
 
 .ant-form-item-control-input-content button[type="submit"]{
   margin-right: 10px;
+} 
+
+.ant-checkbox + span {
+  display: flex;
+}
+
+.ant-checkbox + span .ant-form-item {
+  margin: 0;
 }
